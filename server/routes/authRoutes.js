@@ -8,6 +8,10 @@ module.exports = app => {
     })
   );
 
+  app.get("/", (req, res) => {
+    res.send("Hello");
+  });
+
   app.get("/auth/google/callback", passport.authenticate("google"));
 
   app.get("/api/logout", (req, res) => {

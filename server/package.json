@@ -1,6 +1,6 @@
 {
   "name": "server",
-  "version": "1.0.0", 
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "engines": {
@@ -9,9 +9,7 @@
   },
   "scripts": {
     "start": "node index.js",
-    "server": "nodemon index.js",
-    // "client": "npm run start --prefix client",
-    // "dev": "concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon index.js"
   },
   "author": "niftyy",
   "license": "ISC",
